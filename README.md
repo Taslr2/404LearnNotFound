@@ -19,10 +19,8 @@
 
 ## Latex模板使用方式
 
-1. 在 Overleaf 官网 [cn.overleaf.com](https://cn.overleaf.com) 新建项目，上传项目后拖入 `.zip` 文件。
-
-   ![74075819395](C:\Users\19535\AppData\Local\Temp\1740758193950.png)
+1. 在 Overleaf 官网 [cn.overleaf.com](https://cn.overleaf.com) 新建项目，上传项目后拖入 `Latex作业模板.zip` 文件。
 
 2. 进入项目后，点击左上角菜单，将编译器设置为 `XeLaTeX`。
 
-   ![74075827852](C:\Users\19535\AppData\Local\Temp\1740758278529.png)
+   ​
