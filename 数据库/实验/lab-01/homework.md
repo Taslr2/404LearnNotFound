@@ -41,6 +41,6 @@
 ### Question 34: Find names of instructors with salary greater than that of some (at least one) instructor in the Biology department.  (hard)
 ### Question 35: How many instructors are in the department with the highest budget, and what is their average salary?  (hard)
 ### Question 36: What are the names of students who haven't taken any Biology courses?  (hard)
-### Question 37: Give the title of the prerequisite to the course International Finance.  (hard)
+### Question 37: Give the title of the prerequisite to the course Give the title of the prerequisite to the course International Finance.  .  (hard)
 ### Question 38: What is the name of the department with the most credits?  (hard)
 ### Question 39: Give the name and building of the departments with greater than average budget.  (extra)
