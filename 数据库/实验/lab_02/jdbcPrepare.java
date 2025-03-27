@@ -32,8 +32,8 @@ public class jdbcPrepare {
             pst = conn.prepareStatement(sql);
 
             // 定义数据
-            String[] strArray = new String[] {"A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "D-", "F"};
-            double[] doubleArray = new double[] {4.0, 3.7, 3.3, 3.0, 2.7, 2.3, 2.0, 1.5, 1.3, 1.0, 0};
+            String[] strArray = new String[] {"A+","A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "D-", "F"};
+            double[] doubleArray = new double[] {4.3, 4.0, 3.7, 3.3, 3.0, 2.7, 2.3, 2.0, 1.5, 1.3, 1.0, 0};
 
             // 遍历数据并添加到批处理
             for (int i = 0; i < strArray.length; i++) {
