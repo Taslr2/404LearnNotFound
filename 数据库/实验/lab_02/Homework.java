@@ -42,31 +42,24 @@ public class Homework {
         try {
             stmt = c.createStatement();
 
-            // 2.2 查询包含指定字符串的学生信息
+// 2.2 查询包含指定字符串的学生信息
             boolean hasResult = false;
             while (!hasResult) {
                 try {
-                    System.out.println("请输入字符串，包含(ID,name,dept_name,tot_cred)4个字段,用逗号分隔");
-                    String str = in.nextLine();
-                    if (str.isEmpty()) {
-                        str = in.nextLine(); // 处理可能的空行
-                    }
-                    String[] fields = str.split(",");
-                    if (fields.length != 4) {
-                        System.out.println("输入格式错误，请重试");
-                        continue;
+                    System.out.println("请输入要查询的名字（将返回名字中包含该字符串的所有学生信息）：");
+                    String searchString = in.nextLine();
+                    if (searchString.isEmpty()) {
+                        searchString = in.nextLine(); // 处理可能的空行
                     }
 
-                    String sql = "SELECT * FROM student WHERE id = ? AND name = ? AND dept_name = ? AND tot_cred = ?";
+                    // 使用 LIKE 操作符进行模糊查询
+                    String sql = "SELECT id, name, dept_name, tot_cred FROM student WHERE name LIKE ?";
                     PreparedStatement pstmt = c.prepareStatement(sql);
-                    pstmt.setString(1, fields[0].trim());
-                    pstmt.setString(2, fields[1].trim());
-                    pstmt.setString(3, fields[2].trim());
-                    pstmt.setString(4, fields[3].trim());
+                    pstmt.setString(1, "%" + searchString + "%");  // 使用%实现包含查询
 
                     ResultSet rs = pstmt.executeQuery();
                     if (!rs.isBeforeFirst()) {
-                        System.out.println("未找到相关学生，是否重新输入？(1:是/0:否)");
+                        System.out.println("未找到包含 '" + searchString + "' 的学生姓名，是否重新输入？(1:是/0:否)");
                         if (in.nextInt() != 1) {
                             return;
                         }
@@ -74,6 +67,7 @@ public class Homework {
                         continue;
                     }
 
+                    System.out.println("\n查询结果：");
                     while (rs.next()) {
                         hasResult = true;
                         String studentId = rs.getString("ID");
