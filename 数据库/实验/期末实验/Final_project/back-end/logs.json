@@ -1,0 +1,258 @@
+[
+  {
+    "timestamp": "2025-06-28 20:04:10",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 20:05:14",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 20:59:53",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 21:04:16",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 21:50:38",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 21:52:05",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 21:55:54",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 21:56:49",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:01:55",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 22:03:25",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:10:21",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-28 22:11:44",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:19:26",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:20:37",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:22:41",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:25:37",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:26:02",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-28 22:26:41",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:00:13",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:02:39",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:27:59",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:30:24",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:31:33",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:32:01",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:34:54",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:40:06",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 00:42:14",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:43:21",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 00:44:46",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:47:00",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 00:48:37",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 00:52:06",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 00:52:58",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 00:58:40",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:00:06",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:01:51",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:03:41",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:04:19",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:06:46",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:09:25",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:10:26",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:11:24",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:11:48",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:12:15",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:13:06",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:13:27",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:16:03",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:18:57",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:20:02",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:21:56",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:22:15",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:23:54",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:26:09",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:26:38",
+    "sql": "SHOW TABLES;"
+  },
+  {
+    "timestamp": "2025-06-29 01:33:58",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:49:16",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
+  },
+  {
+    "timestamp": "2025-06-29 01:51:10",
+    "sql": "SELECT course.title, course.credits, course.dept_name\nFROM course\nWHERE course.course_id IN (\n    SELECT course_id\n    FROM prereq\n    GROUP BY course_id\n    HAVING COUNT(*) > 1\n);"
+  },
+  {
+    "timestamp": "2025-06-29 01:53:02",
+    "sql": "SELECT s.name\nFROM student s\nWHERE s.ID IN (\n    SELECT s_ID\n    FROM advisor\n    GROUP BY s_ID\n    HAVING COUNT(i_ID) > 1\n);"
+  },
+  {
+    "timestamp": "2025-06-29 01:54:24",
+    "sql": "SELECT title\nFROM course\nWHERE course_id NOT IN (SELECT DISTINCT course_id FROM prereq);"
+  },
+  {
+    "timestamp": "2025-06-29 02:07:38",
+    "sql": "SELECT s.name\nFROM student s\nWHERE (\n    SELECT COUNT(*)\n    FROM advisor a\n    WHERE a.s_ID = s.ID\n) > 1;"
+  },
+  {
+    "timestamp": "2025-06-29 02:15:45",
+    "sql": "SELECT title\nFROM course\nWHERE course_id NOT IN (SELECT DISTINCT course_id FROM prereq);"
+  },
+  {
+    "timestamp": "2025-06-29 02:16:02",
+    "sql": "SELECT student.name\nFROM student\nJOIN advisor ON student.ID = advisor.s_ID\nGROUP BY student.ID\nHAVING COUNT(DISTINCT advisor.i_ID) > 1;"
+  },
+  {
+    "timestamp": "2025-06-29 02:17:12",
+    "sql": "SELECT student.name FROM student;"
+  },
+  {
+    "timestamp": "2025-06-29 02:18:37",
+    "sql": "SELECT student.name\nFROM student\nJOIN advisor ON student.ID = advisor.s_ID\nGROUP BY student.ID, student.name\nHAVING COUNT(DISTINCT advisor.i_ID) > 1;"
+  }
+]
