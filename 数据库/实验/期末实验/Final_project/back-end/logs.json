@@ -254,5 +254,13 @@
   {
     "timestamp": "2025-06-29 02:18:37",
     "sql": "SELECT student.name\nFROM student\nJOIN advisor ON student.ID = advisor.s_ID\nGROUP BY student.ID, student.name\nHAVING COUNT(DISTINCT advisor.i_ID) > 1;"
+  },
+  {
+    "timestamp": "2025-06-29 02:59:30",
+    "sql": "SELECT course.title\nFROM course\nLEFT JOIN prereq ON course.course_id = prereq.course_id\nWHERE prereq.prereq_id IS NULL;"
+  },
+  {
+    "timestamp": "2025-06-29 02:59:51",
+    "sql": "SELECT title, credits FROM course ORDER BY title, credits;"
   }
 ]

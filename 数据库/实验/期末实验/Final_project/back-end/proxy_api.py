@@ -67,7 +67,7 @@ def parse_result(result):
             print("查询成功？", data.get("success"))
             print("总行数：", data.get("rowCount"))
             print("结果列表示例：")
-            for item in data.get("results", [])[:10]:  # 只打印前10条，方便观察
+            for item in data.get("results", []):  
                 print(item)
         except Exception as e:
             print("JSON 解析错误:", e)
