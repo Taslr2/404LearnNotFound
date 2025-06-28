@@ -34,7 +34,7 @@ uv pip install
 
 ## 额外说明
 
-`.env` 文件用于存放数据库连接信息，如：
+在back-end目录下新建`.env` 文件，用于存放数据库连接信息，如下：
 
 ```bash
 DB_HOST=localhost
@@ -42,7 +42,7 @@ DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=yourdatabase
-QWEN_API_KEY=your_api_key
+QWEN_API_KEY=sk-55384e91a45d4abb9bd4ce34579bb319
 ```
 
 - 确保 Python 版本 >= 3.8，支持异步编程。
